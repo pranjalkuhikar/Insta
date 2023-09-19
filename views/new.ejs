@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Post</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1><u>Create a New Post</u></h1>
+      <hr />
+      <form method="post" action="/posts" class="form">
+        <div class="txt">
+          <input type="text" name="username" required />
+          <span></span>
+          <label>Enter User Name</label>
+        </div>
+        <div class="txt">
+          <input type="file" name="image" required />
+        </div>
+        <div class="txt">
+          <input type="textarea" name="content" required />
+          <span></span>
+          <label>Enter Your Content</label>
+        </div>
+        <div class="sub">
+          <input type="submit" value="Submit Post" />
+        </div>
+        <br />
+        <br />
+      </form>
+    </div>
+  </body>
+</html>
